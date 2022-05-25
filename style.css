@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", "sans-serif";
+}
+
+.text-center {
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 1rem;
+}
+.text-center h2 {
+  font-size: 4rem;
+}
+.virus {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.virus p {
+  font-size: 1.62rem;
+}
+p span {
+  font-weight: bold;
+}
+
+@media screen and (max-width: 1000px) {
+  .text-center h2 {
+    font-size: 2rem;
+  }
+  .virus p {
+    font-size: 1rem;
+  }
+}
